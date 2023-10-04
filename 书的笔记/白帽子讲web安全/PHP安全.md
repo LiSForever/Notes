@@ -233,7 +233,7 @@ int extract (array $var_array[,int $extract_type[,string $prefix]])
 
 函数的功能是创建一系列变量，变量名为数组的字符串下标，值为下标对应的值。
 
-第二个参数常用的有EXTR_OVERWRITE和EXTR_SKIP，前者在变量导入符号表时，如果变量名发生冲突，会覆盖已有的变量，后者则不覆盖，默认使用第一个参数。
+第二个参数常用的有EXTR_OVERWRITE和EXTR_SKIP，**前者在变量导入符号表时，如果变量名发生冲突，会覆盖已有的变量，后者则不覆盖，默认使用第一个参数。**
 
 ----------------
 
